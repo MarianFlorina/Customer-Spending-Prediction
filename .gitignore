@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv310/
+env/
+.env
+
+# Virtual Environment
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data & Models (keep structure, not data)
+data/*.db
+data/api_keys.json
+data/rate_limits.json
+data/training_data.csv
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.log.err
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker
+docker-compose.override.yml
+
+# Freebuff
+.freebuff/preview-*.log
+.freebuff/run.md
